@@ -36,4 +36,5 @@ target_link_libraries(my_cmake
 add_executable(test
         test.cpp test.cpp)
 ```
-链接OPENGL库需要 "-framework OpenGL"
+链接OPENGL库需要 `"-framework OpenGL"`
+如果是在Windows平台下，这一行应改为 `opengl32`
