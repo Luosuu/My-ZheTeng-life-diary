@@ -104,7 +104,7 @@ ls
     --enable-cscope \
     --prefix=/usr/local
  ```
- 这样就基本大功告成了。不要忘记要make和make install，很多教程都忘了make然后直接make install了，这样会出问题。
+ 这样就基本大功告成了。不要忘记要make和make install，这是编译安装的必要操作。很多教程都忘了make然后直接make install了，这样会出问题。
  #### (4)make与make install
  ```shell
 make VIMRUNTIMEDIR=/usr/local/share/vim/vim81
