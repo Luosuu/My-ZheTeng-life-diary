@@ -34,7 +34,7 @@ sudo apt-get remove --purge vi vim-tiny vim vim-runtime gvim vim-common vim-gui-
 sudo pacman -Rsn vi vim-tiny vim vim-runtime gvim vim-common vim-gui-common vim-nox
  ```
  其他发行版，例如Deepin这样的系统，它基于Debian不稳定版开发，所以一般命令都和Debian一样，你也可以查查自己的发行版基于什么开发，它的命令是什么样的。
-一般来说这样就够了，但是可以的话建议全局搜索vim以避免漏网之鱼，要注意一些系统文件不能删去，否则你就要重装你的系统了。具体可以参考[Linux 下源码编译安装 vim 8.1]('https://www.v2ex.com/t/483931')。
+一般来说这样就够了，但是可以的话建议全局搜索vim以避免漏网之鱼，要注意一些系统文件不能删去，否则你就要重装你的系统了。具体可以参考[Linux 下源码编译安装 vim 8.1](https://www.v2ex.com/t/483931)。
 当然你也可以有更好的办法
 ```shell
 dpkg -l | grep vim
@@ -112,4 +112,4 @@ make install
  ```
 最后，再利用`vim --version`功能是不是已经启用！
 ### 关于本文
-会有很多错误和不妥的地方，大部分参考于[Linux 下源码编译安装 vim 8.1]('https://www.v2ex.com/t/483931')。
+会有很多错误和不妥的地方，大部分参考于[Linux 下源码编译安装 vim 8.1](https://www.v2ex.com/t/483931)。
